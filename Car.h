@@ -231,21 +231,21 @@ public:
 		case 2:
 			for (int i = 0; i < listSize; i++)
 			{
-				if (judge(a, listArray[i].brand))
+				if (judge(a, listArray[i].type))
 					getCar(i);
 			}
 			break;
 		case 3:
 			for (int i = 0; i < listSize; i++)
 			{
-				if (judge(a, listArray[i].brand))
+				if (judge(a, listArray[i].color))
 					getCar(i);
 			}
 			break;
 		case 4:
 			for (int i = 0; i < listSize; i++)
 			{
-				if (judge(a, listArray[i].brand))
+				if (judge(a, listArray[i].car_number))
 					getCar(i);
 			}
 			break;
